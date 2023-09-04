@@ -1,0 +1,85 @@
+name: m3g_chat
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+  lottie: ^2.1.0
+  fluttertoast: ^8.1.2
+  persistent_bottom_nav_bar: ^5.0.2
+  dio: ^4.0.6
+  retrofit: ^3.3.1
+  flutter_bloc: ^8.1.1
+  get_it: ^7.2.0
+  injectable: ^2.1.0
+  flutter_conditional_rendering: ^2.0.0
+  socket_io_client: ^1.0.2
+  encrypt: ^5.0.1
+  crypto: ^3.0.2
+  random_string_generator: ^2.0.0
+  pointycastle: ^3.6.2
+  cryptography: ^2.0.5
+  crypton:
+  crypto_keys: ^0.3.0+1
+  flutter_phoenix: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+  # Chat UI
+  flutter_chat_ui: ^1.6.6
+  uuid: ^3.0.7
+  path_provider: ^2.0.11
+  open_filex: ^4.3.2
+  mime: ^1.0.3
+  intl: ^0.17.0
+  image_picker: ^0.8.6
+  file_picker: ^5.2.4
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/json/
+    - assets/translations/
+    - assets/messages.json
+    - assets/
+
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Tajawal-ExtraBold.ttf
+          weight: 700
+        - asset: assets/fonts/Tajawal-Bold.ttf
+          weight: 600
+        - asset: assets/fonts/Tajawal-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Tajawal-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Tajawal-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Tajawal-ExtraLight.ttf
+          weight: 200
+
+
+
